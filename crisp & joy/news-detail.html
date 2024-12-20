@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Crisp & Joy - новини</title>
+
+        <!-- CSS FILES -->  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">                      
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <a class="navbar-brand" href="index.html">
+                    Crisp & Joy
+                </a>
+
+                <div class="d-lg-none">
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Зарезервувати</button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Головна</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Про нас</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Меню</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Що нового?</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-lg-block">
+                    <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Зарезервувати</button>
+                </div>
+
+            </div>
+        </nav>
+
+        <main>
+
+            <header class="site-header site-news-detail-header">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2>Вивчення досвіду вишуканої кухні</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <section class="news-detail section-padding pt-0">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12">
+                            <img src="images/news/news-detail-header.jpg" class="img-fluid news-detail-image" alt="fine dining experience">
+
+                            <div class="col-lg-10 col-10 mx-auto mt-5">
+                                
+                                <h4 class="mb-3">Найкращі вишукані страви у Crisp & Joy</h4>
+
+                                <ul class="list">
+                                    <li class="list-item">Статистика пасти опублікована в усьому світі</li>
+
+                                    <li class="list-item">Рисове борошно або бобові, наприклад квасоля</li>
+
+                                    <li class="list-item">У бельгійської сім'ї розвинулися серйозні симптоми харчового отруєння</li>
+                                </ul>
+
+                                <p>Макарони - це вид їжі, який зазвичай виготовляється з прісного тіста з пшеничного борошна, змішаного з водою або яйцями, і формується у вигляді листів або інших форм, а потім готується шляхом варіння або запікання. Замість пшеничного борошна іноді використовують рисове борошно або бобові, такі як квасоля чи сочевиця, щоб отримати інший смак.</p>
+
+                                <div class="ratio ratio-16x9 my-5">
+                                    <iframe width="854" height="480" src="https://www.youtube.com/embed/EC1QfbAoZ60" title="ПАСТА з креветками у ВЕРШКОВОМУ соусі 🦐 Євген Клопотенко" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="comments section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h4 class="text-center mb-4">Залишити коментар</h4>
+                        </div>
+
+                        <div class="col-lg-7 col-12 mx-auto">
+                            <form class="custom-form comment-form" action="#" method="get" role="form">
+                            	
+                                <input type="text" name="comment-name" id="comment-name" class="form-control" placeholder="Ваше ім'я" required>
+                                
+                                <input type="email" name="comment-email" id="comment-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Електронна пошта" required="">
+                            
+                                <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Ваш коментар" required></textarea>
+
+                                <div class="col-lg-3 col-4 mx-auto">
+                                    <button type="submit" class="form-control" id="subscribe">Відправити</button>
+                                </div>
+                            </form>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="related-news section-padding bg-white">
+                <div class="container">
+                    <div class="row">
+
+                        <h2 class="text-center mb-lg-5 mb-4">Актуальне</h2>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="news-thumb mb-4">
+                                <a href="news-detail.html">
+                                    <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info">
+                                    <span class="category-tag me-3 bg-info">Зустріч</span>
+
+                                    <strong> 17 грудня 2024</strong>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="news-detail.html" class="news-title-link">Чи шкідливі кокоси для тебе?</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="news-thumb mb-4">
+                                <a href="news-detail.html">
+                                    <img src="images/news/ella-olsson-mmnKI8kMxpc-unsplash.jpg" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info">
+                                    <span class="category-tag me-3 bg-info">Кар'єра</span>
+
+                                    <strong> 27 грудня 2024</strong>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="news-detail.html" class="news-title-link">Як відрити бізнес з суші?</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="news-thumb mb-4">
+                                <a href="news-detail.html">
+                                    <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" class="img-fluid news-image" alt="">
+                                </a>
+                                
+                                <div class="news-text-info">
+                                    <span class="category-tag me-3 bg-info">Зустріч</span>
+
+                                    <strong> 21 грудня 2024</strong>
+
+                                    <h5 class="news-title mt-2">
+                                        <a href="news-detail.html" class="news-title-link">Приготування корисного салату</a>
+                                    </h5>
+                                </div>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg" class="img-fluid newsletter-image" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 mx-auto">
+                            <div class="subscribe-form-wrap">
+                                <h4 class="mb-0">Наш інформаційний бюлетень</h4>
+
+                                <p>Наш інформаційний бюлетень</p>
+
+                                <form class="custom-form subscribe-form mt-4" role="form">
+                                    <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Електронна пошта.." required="">
+
+                                    <button type="submit" class="form-control mb-3" id="subscribe">Підписатись</button>
+
+                                    <small>Реєструючись, ви погоджуєтеся з нашим Повідомленням про конфіденційність та політикою обробки даних</small>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer section-padding">
+            
+            <div class="container">
+                
+                <div class="row">
+
+                    <div class="col-12">
+                        <h4 class="text-white mb-4 me-5">Crisp & Joy</h4>
+                    </div>
+
+                    <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Наша адреса:</h6>
+
+                        <p>Вінниця, вул. Шевченка 25</p>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Години роботи:</h6>
+
+                        <p class="mb-2">Вівторок - Неділя</p>
+
+                        <p>10:00 - 23:00</p>
+
+                        <p>Тел: <a href="tel: 010-02-0340" class="tel-link">066-355-88-97</a></p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                        <h6 class="text-white mb-lg-4 mb-3">Наші медіа</h6>
+
+                        <ul class="social-icon">
+                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                        </ul>
+                    
+                        <p class="copyright-text tooplate-mt60"> © 2024 Crisp & Joy. Виконала Ковальчук Вероніка, ст.гр. 4КН-24б. </p>
+                        
+                    </div>
+
+                </div>
+                
+             </div><
+             
+        </footer>
+
+        <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="mb-0">Зарезервувати столик</h3>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body d-flex flex-column justify-content-center">
+                        <div class="booking">
+                            
+                            <form class="booking-form row" role="form" action="#" method="post">
+                                <div class="col-lg-6 col-12">
+                                    <label for="name" class="form-label">Тут введіть ім'я</label>
+
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Мене звати..." required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="email" class="form-label">Електронна пошта</label>
+
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="phone" class="form-label">Номер телефону</label>
+
+                                    <input type="telephone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="+380(12)3456789">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="people" class="form-label">Кількість людей</label>
+
+                                    <input type="text" name="people" id="people" class="form-control" placeholder="12 людей">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="date" class="form-label">Дата</label>
+
+                                    <input type="date" name="date" id="date" value="" class="form-control">
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <label for="time" class="form-label">Час</label>
+
+                                    <select class="form-select form-control" name="time" id="time">
+                                      <option value="5" selected>17:00</option>
+                                      <option value="6">18:00</option>
+                                      <option value="7">19:00</option>
+                                      <option value="8">20:00</option>
+                                      <option value="9">21:00</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Ваші примітки</label>
+
+                                    <textarea class="form-control" rows="4" id="message" name="message" placeholder=""></textarea>
+                                </div>
+
+                                <div class="col-lg-4 col-12 ms-auto">
+                                    <button type="submit" class="form-control">Відправити заявку</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
